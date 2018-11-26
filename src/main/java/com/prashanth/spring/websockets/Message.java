@@ -3,6 +3,9 @@ package com.prashanth.spring.websockets;
 public class Message {
     private String name;
 
+    public Message() {
+    }
+
     public Message(String name) {
         this.name = name;
     }
